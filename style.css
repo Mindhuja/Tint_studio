@@ -1,0 +1,408 @@
+body {
+  margin: 0;
+  font-family: Grenze;
+  background-color: lightgray;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  background-color: #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: 0 ;
+  padding: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items:flex-start ;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.icons {
+  display: flex;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.hero {
+  background-image: url("images/pic1.jpg"); 
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.hero-text {
+  color: black;
+  margin-bottom: 350px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-text h4 {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: none;
+}
+
+.hero-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+}
+.arrowleft {
+  display: flex;
+  width: 100%;
+
+}
+.arrowright {
+  display: flex;
+  width: 100%;
+
+}
+
+.arrows img {
+  width: 60px;
+  height: 60px;
+}
+
+.cta {
+  padding: 50px 0;
+  align-items:flex-start;
+}
+
+.btn {
+  background-color: #ccc;
+  color: #333;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px;
+  float: left;
+  width: 250px;
+  margin-left: 100px;
+ 
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+h1{
+  text-align: center;
+}
+.search-container select {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  font-size: 1em;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  float: none;
+  background-color: grey;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.box {
+  flex-basis: 10%;
+  width: 250%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.text {
+  text-align: center;
+  margin-top: 5px;
+}
+.image{
+  align-items: center;
+}
+.click button{
+  background-color: gray;
+  color: #333;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px;
+}
+.click:hover {
+  background-color: #ddd;
+}
+.container2 {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: grey;
+  padding: 25px;
+
+}
+h3{
+  text-align:center;
+  padding-right:800px ;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.input-group label {
+  margin-bottom: 5px;
+  width: 80%;
+ 
+}
+
+.input-group input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.touch {
+  color: #333;
+  padding: 15px 30px;
+ border: none;
+ border-radius: 5px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ margin: 0 10px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container3 {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.image-container1 {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-container2 {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-container3 {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-container4 {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.row{
+  gap:10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+.container4 {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+.form-group textarea {
+  width: 83%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: gray;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: black;
+  height: 50px;
+}
+
+.camera{
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+.form-container {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.clear {
+  clear: both;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
